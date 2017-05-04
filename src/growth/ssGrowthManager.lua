@@ -25,6 +25,7 @@ ssGrowthManager.growthData = {}
 ssGrowthManager.canPlantData = {}
 ssGrowthManager.canHarvestData = {}
 ssGrowthManager.willGerminateData = {}
+ssGrowthManager.previousWillGerminateData = {}
 
 -- properties
 ssGrowthManager.fakeTransition = 1
@@ -145,7 +146,6 @@ function ssGrowthManager:transitionChanged()
     else
         log("GrowthManager enabled - transition changed to: " .. transition)
         ssDensityMapScanner:queueJob("ssGrowthManagerHandleGrowth", transition)
-        self:rebuildWillGerminateData()
     end
 end
 
@@ -165,21 +165,25 @@ function ssGrowthManager:update(dt)
 end
 
 -- reset the willGerminateData and rebuild it based on the current transition
--- called just after transitionChanged
 function ssGrowthManager:rebuildWillGerminateData()
     self.willGerminateData = {}
-    self:dayChanged()
+
+    for fruitName, transition in pairs(self.canPlantData) do
+        if self.canPlantData[fruitName][g_seasons.environment:transitionAtDay()] == true then
+            self.willGerminateData[fruitName] = ssWeatherManager:canSow(fruitName)
+        end
+    end
 end
 
 -- handle dayChanged event
 -- check if canSow and update willGerminate accordingly
 function ssGrowthManager:dayChanged()
-    if self.growthManagerEnabled == false then return end
-    log("dayChanged: rebuilding data")
-    for fruitName, transition in pairs(self.canPlantData) do
-        if self.canPlantData[fruitName][g_seasons.environment:transitionAtDay()] == true then
-            self.willGerminateData[fruitName] = ssWeatherManager:canSow(fruitName)
-        end
+    if self.isNewSavegame == true then
+        self:rebuildWillGerminateData()
+        self.previousWillGerminateData = Utils.copyTable(self.willGerminateData)
+    else
+        self.previousWillGerminateData = Utils.copyTable(self.willGerminateData)
+        self:rebuildWillGerminateData()
     end
 end
 
@@ -245,7 +249,7 @@ end
 function ssGrowthManager:incrementGrowthState(fruit, fruitName, x, z, widthX, widthZ, heightX, heightZ, transition)
     local useMaxState = false
     local minState = self.growthData[transition][fruitName].normalGrowthState
-    if minState == 1 and self.willGerminateData[fruitName] == false then --check if the fruit has just been planted and delay growth if germination temp not reached
+    if minState == 1 and self.previousWillGerminateData[fruitName] == false then --check if the fruit has just been planted and delay growth if germination temp not reached
         return
     end
 
