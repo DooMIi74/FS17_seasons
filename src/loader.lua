@@ -90,6 +90,7 @@ local files = {
     "growth/ssFruitManager",
     "growth/ssGrowthManagerData",
     "growth/ssGrowthManager",
+    "growth/ssGrowthManagerDebugView",
     "environment/ssSnow",
     "gui/ssSeasonIntro",
     "environment/ssReplaceVisual",

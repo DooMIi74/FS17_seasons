@@ -57,7 +57,7 @@ function ssEnvironment:preLoad()
 end
 
 function ssEnvironment:load(savegame, key)
-    self.daysInSeason = Utils.clamp(ssXMLUtil.getInt(savegame, key .. ".settings.daysInSeason", 9), 3, 12)
+    self.daysInSeason = Utils.clamp(ssXMLUtil.getInt(savegame, key .. ".settings.daysInSeason", 3), 3, 12)
     self.latestSeason = ssXMLUtil.getInt(savegame, key .. ".environment.latestSeason", -1)
     self.latestTransition = ssXMLUtil.getInt(savegame, key .. ".environment.latestGrowthStage", 0) --todo: fix this ... leaving this as stage in the xml file until release
                                                                                                             --to not break existing test save games
