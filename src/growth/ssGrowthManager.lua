@@ -90,7 +90,7 @@ function ssGrowthManager:loadMap(name)
         addConsoleCommand("ssResetGrowth", "Resets growth back to default starting state", "consoleCommandResetGrowth", self)
         addConsoleCommand("ssIncrementGrowth", "Increments growth for test purposes", "consoleCommandIncrementGrowthState", self)
         addConsoleCommand("ssSetGrowthState", "Sets growth for test purposes", "consoleCommandSetGrowthState", self)
-        --addConsoleCommand("ssTestStuff", "Tests stuff", "consoleCommandTestStuff", self)
+        addConsoleCommand("ssTestStuff", "Tests stuff", "consoleCommandTestStuff", self)
         self:dayChanged()
     end
 end
@@ -175,7 +175,7 @@ end
 -- check if canSow and update willGerminate accordingly
 function ssGrowthManager:dayChanged()
     if self.growthManagerEnabled == false then return end
-
+    log("dayChanged: rebuilding data")
     for fruitName, transition in pairs(self.canPlantData) do
         if self.canPlantData[fruitName][g_seasons.environment:transitionAtDay()] == true then
             self.willGerminateData[fruitName] = ssWeatherManager:canSow(fruitName)
@@ -520,4 +520,6 @@ end
 
 function ssGrowthManager:consoleCommandTestStuff()
     --put stuff to test in here
+    --self:rebuildWillGerminateData()
+    print_r(self.willGerminateData)
 end
