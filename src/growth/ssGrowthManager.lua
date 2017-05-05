@@ -525,5 +525,9 @@ end
 function ssGrowthManager:consoleCommandTestStuff()
     --put stuff to test in here
     --self:rebuildWillGerminateData()
+    log("previousWillGerminateData")
+    print_r(self.previousGerminareData)
+    log("willGerminareData")
     print_r(self.willGerminateData)
+    
 end
