@@ -179,11 +179,13 @@ end
 -- check if canSow and update willGerminate accordingly
 function ssGrowthManager:dayChanged()
     if self.isNewSavegame == true then
+        log("dayChanged - isNew = true")
         self:rebuildWillGerminateData()
         self.previousWillGerminateData = Utils.copyTable(self.willGerminateData)
     else
         self.previousWillGerminateData = Utils.copyTable(self.willGerminateData)
         self:rebuildWillGerminateData()
+        log("dayChanged - isNew = false")
     end
 end
 
@@ -526,7 +528,7 @@ function ssGrowthManager:consoleCommandTestStuff()
     --put stuff to test in here
     --self:rebuildWillGerminateData()
     log("previousWillGerminateData")
-    print_r(self.previousGerminareData)
+    print_r(self.previousWillGerminateData)
     log("willGerminareData")
     print_r(self.willGerminateData)
     
