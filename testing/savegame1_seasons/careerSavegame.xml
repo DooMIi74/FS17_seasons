@@ -1,0 +1,248 @@
+﻿<careerSavegame revision="2" valid="true">
+    <settings>
+        <savegameName>My Savegame</savegameName>
+        <mapId>Map01</mapId>
+        <mapTitle>Goldcrest Valley</mapTitle>
+        <playerName>SebastianP</playerName>
+        <saveDate>2017-04-26</saveDate>
+        <resetVehicles>false</resetVehicles>
+        <isPlantWitheringEnabled>true</isPlantWitheringEnabled>
+        <trafficEnabled>true</trafficEnabled>
+        <fertilizerStatesEnabled>true</fertilizerStatesEnabled>
+        <plowingRequiredEnabled>true</plowingRequiredEnabled>
+        <stopAndGoBraking>false</stopAndGoBraking>
+        <automaticMotorStartEnabled>false</automaticMotorStartEnabled>
+        <fuelUsageLow>false</fuelUsageLow>
+        <helperBuyFuel>true</helperBuyFuel>
+        <helperBuySeeds>true</helperBuySeeds>
+        <helperBuyFertilizer>true</helperBuyFertilizer>
+        <helperSlurrySource>1</helperSlurrySource>
+        <helperManureSource>1</helperManureSource>
+        <densityMapRevision>3</densityMapRevision>
+        <terrainLodTextureRevision>2</terrainLodTextureRevision>
+        <splitShapesRevision>1</splitShapesRevision>
+        <tipCollisionRevision>1</tipCollisionRevision>
+        <mapDensityMapRevision>1</mapDensityMapRevision>
+        <mapTerrainLodTextureRevision>1</mapTerrainLodTextureRevision>
+        <mapSplitShapesRevision>1</mapSplitShapesRevision>
+        <mapTipCollisionRevision>1</mapTipCollisionRevision>
+        <difficulty>3</difficulty>
+        <playerIndex>2</playerIndex>
+        <playerColorIndex>1</playerColorIndex>
+        <plantGrowthRate>1</plantGrowthRate>
+        <dirtInterval>3</dirtInterval>
+        <timeScale>1.000000</timeScale>
+    </settings>
+    <tipTypeMappings>
+        <tipTypeMapping fillType="woodChips" index="19"/>
+        <tipTypeMapping fillType="rape" index="3"/>
+        <tipTypeMapping fillType="fertilizer" index="11"/>
+        <tipTypeMapping fillType="sunflower" index="8"/>
+        <tipTypeMapping fillType="maize" index="4"/>
+        <tipTypeMapping fillType="soybean" index="7"/>
+        <tipTypeMapping fillType="potato" index="5"/>
+        <tipTypeMapping fillType="barley" index="2"/>
+        <tipTypeMapping fillType="wheat" index="1"/>
+        <tipTypeMapping fillType="seeds" index="10"/>
+        <tipTypeMapping fillType="grass_windrow" index="13"/>
+        <tipTypeMapping fillType="dryGrass_windrow" index="14"/>
+        <tipTypeMapping fillType="straw" index="12"/>
+        <tipTypeMapping fillType="snow" index="21"/>
+        <tipTypeMapping fillType="silage" index="15"/>
+        <tipTypeMapping fillType="sugarBeet" index="6"/>
+        <tipTypeMapping fillType="forage" index="16"/>
+        <tipTypeMapping fillType="manure" index="18"/>
+        <tipTypeMapping fillType="tarp" index="20"/>
+        <tipTypeMapping fillType="chaff" index="9"/>
+        <tipTypeMapping fillType="pigFood" index="17"/>
+    </tipTypeMappings>
+    <statistics>
+        <money>14941812</money>
+        <traveledDistance>0.065314</traveledDistance>
+        <fuelUsage>3.106340</fuelUsage>
+        <seedUsage>507.067505</seedUsage>
+        <sprayUsage>147.180206</sprayUsage>
+        <workedHectares>2.942950</workedHectares>
+        <cultivatedHectares>1.252725</cultivatedHectares>
+        <sownHectares>1.690225</sownHectares>
+        <fertilizedHectares>1.724225</fertilizedHectares>
+        <threshedHectares>0.000000</threshedHectares>
+        <workedTime>44.325008</workedTime>
+        <cultivatedTime>17.690916</cultivatedTime>
+        <sownTime>26.634092</sownTime>
+        <fertilizedTime>9.085198</fertilizedTime>
+        <threshedTime>0.000000</threshedTime>
+        <baleCount>0</baleCount>
+        <threePointThrowCount>0</threePointThrowCount>
+        <breedCowsCount>0</breedCowsCount>
+        <breedSheepCount>0</breedSheepCount>
+        <breedPigsCount>0</breedPigsCount>
+        <fieldJobMissionCount>0</fieldJobMissionCount>
+        <fieldJobMissionByNPC>0</fieldJobMissionByNPC>
+        <revenue>0.000000</revenue>
+        <expenses>1827.692749</expenses>
+        <playTime>48.879322</playTime>
+        <foundGoldNuggetCount>0</foundGoldNuggetCount>
+        <foundGoldNuggets>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</foundGoldNuggets>
+        <foundHelpIcons>00000000000000000000</foundHelpIcons>
+        <plantedTreeCount>0</plantedTreeCount>
+        <cutTreeCount>0</cutTreeCount>
+        <woodTonsSold>0.000000</woodTonsSold>
+        <treeTypesCut>000000</treeTypesCut>
+        <loan>100000</loan>
+        <loanAnnualInterestRate>300</loanAnnualInterestRate>
+    </statistics>
+    <environment>
+        <dayTime>1074.199707</dayTime>
+        <timeSinceLastRain>10000673.000000</timeSinceLastRain>
+        <currentDay>1</currentDay>
+        <realHourTimer>667238</realHourTimer>
+        <eastState1>0</eastState1>
+        <eastState2>0</eastState2>
+        <rains numRains="4">
+            <rain isValid="true" rainTypeId="rain" duration="152.294922" startDay="2" startDayTime="655.816650"/>
+            <rain isValid="true" rainTypeId="rain" duration="120.000000" startDay="6" startDayTime="341.350006"/>
+            <rain isValid="true" rainTypeId="rain" duration="191.491547" startDay="7" startDayTime="705.900024"/>
+            <rain isValid="true" rainTypeId="rain" duration="169.034500" startDay="8" startDayTime="762.616638"/>
+            <rain isValid="true" rainTypeId="cloudy" duration="398.771576" startDay="12" startDayTime="584.563843"/>
+            <rain isValid="true" rainTypeId="rain" duration="336.804260" startDay="15" startDayTime="623.059509"/>
+            <rain isValid="true" rainTypeId="cloudy" duration="215.846100" startDay="18" startDayTime="718.305237"/>
+            <rain isValid="true" rainTypeId="cloudy" duration="416.634491" startDay="20" startDayTime="417.951294"/>
+            <rain isValid="true" rainTypeId="rain" duration="371.576294" startDay="22" startDayTime="492.781189"/>
+        </rains>
+        <currentRain isValid="false"/>
+        <lastRain isValid="true" rainTypeId="fog" duration="204.957779" startDay="1" startDayTime="500.789276"/>
+    </environment>
+    <totalAmounts count="52">
+        <totalAmount fillType="squareBaleBarley" value="50000.000000"/>
+        <totalAmount fillType="poplar" value="50000.000000"/>
+        <totalAmount fillType="woodChips" value="50000.000000"/>
+        <totalAmount fillType="forage" value="50000.000000"/>
+        <totalAmount fillType="sunflower" value="50000.000000"/>
+        <totalAmount fillType="milk" value="50000.000000"/>
+        <totalAmount fillType="roundBale" value="50000.000000"/>
+        <totalAmount fillType="fuel" value="50000.000000"/>
+        <totalAmount fillType="squareBaleWheat" value="50000.000000"/>
+        <totalAmount fillType="soybean" value="50000.000000"/>
+        <totalAmount fillType="forage_mixing" value="50000.000000"/>
+        <totalAmount fillType="barley" value="50000.000000"/>
+        <totalAmount fillType="wheat" value="50000.000000"/>
+        <totalAmount fillType="seeds" value="50000.000000"/>
+        <totalAmount fillType="pigFoodProtein" value="50000.000000"/>
+        <totalAmount fillType="dryGrass_windrow" value="50000.000000"/>
+        <totalAmount fillType="straw" value="50000.000000"/>
+        <totalAmount fillType="silage" value="50000.000000"/>
+        <totalAmount fillType="powerFood" value="50000.000000"/>
+        <totalAmount fillType="manure" value="50000.000000"/>
+        <totalAmount fillType="chaff" value="50000.000000"/>
+        <totalAmount fillType="roundBaleDryGrass" value="50000.000000"/>
+        <totalAmount fillType="squareBale" value="50000.000000"/>
+        <totalAmount fillType="rape" value="50000.000000"/>
+        <totalAmount fillType="fertilizer" value="50000.000000"/>
+        <totalAmount fillType="pig" value="50000.000000"/>
+        <totalAmount fillType="cow" value="50000.000000"/>
+        <totalAmount fillType="sheep" value="50000.000000"/>
+        <totalAmount fillType="wool" value="50000.000000"/>
+        <totalAmount fillType="maize" value="50000.000000"/>
+        <totalAmount fillType="chicken" value="50000.000000"/>
+        <totalAmount fillType="roundBaleBarley" value="50000.000000"/>
+        <totalAmount fillType="grass" value="50000.000000"/>
+        <totalAmount fillType="treeSaplings" value="50000.000000"/>
+        <totalAmount fillType="water" value="50000.000000"/>
+        <totalAmount fillType="roundBaleWheat" value="50000.000000"/>
+        <totalAmount fillType="sugarBeet" value="50000.000000"/>
+        <totalAmount fillType="snow" value="50000.000000"/>
+        <totalAmount fillType="roundBaleGrass" value="50000.000000"/>
+        <totalAmount fillType="grass_windrow" value="50000.000000"/>
+        <totalAmount fillType="pigFoodGrain" value="50000.000000"/>
+        <totalAmount fillType="digestate" value="50000.000000"/>
+        <totalAmount fillType="pigFoodEarth" value="50000.000000"/>
+        <totalAmount fillType="liquidFertilizer" value="50000.000000"/>
+        <totalAmount fillType="pigFoodBase" value="50000.000000"/>
+        <totalAmount fillType="egg" value="50000.000000"/>
+        <totalAmount fillType="potato" value="50000.000000"/>
+        <totalAmount fillType="oilseedRadish" value="50000.000000"/>
+        <totalAmount fillType="liquidManure" value="50000.000000"/>
+        <totalAmount fillType="tarp" value="50000.000000"/>
+        <totalAmount fillType="dryGrass" value="50000.000000"/>
+        <totalAmount fillType="pigFood" value="50000.000000"/>
+    </totalAmounts>
+    <mapsSplitShapeFileIds count="1">
+        <id id="0"/>
+    </mapsSplitShapeFileIds>
+    <clientPermissions>
+        <permission name="hireAI" setting="true"/>
+        <permission name="resetVehicle" setting="false"/>
+        <permission name="sellVehicle" setting="false"/>
+        <permission name="ownMoney" setting="false"/>
+        <permission name="tradeAnimals" setting="false"/>
+        <permission name="createFields" setting="false"/>
+    </clientPermissions>
+    <mod modName="FS17_seasons" title="Seasons" version="1.0.0.0" required="false"/>
+    <ssSeasons>
+        <settings>
+            <showControlsInHelpScreen>true</showControlsInHelpScreen>
+            <daysInSeason>3</daysInSeason>
+            <aiPricePerHourWork>1650.000000</aiPricePerHourWork>
+            <aiPricePerHourOverwork>2475.000000</aiPricePerHourOverwork>
+            <aiDayStart>6.000000</aiDayStart>
+            <aiDayEnd>18.000000</aiDayEnd>
+            <loanMax>1500000.000000</loanMax>
+            <baseLoanInterest>10.000000</baseLoanInterest>
+            <weatherForecastHudVisible>false</weatherForecastHudVisible>
+            <snowTracks>true</snowTracks>
+            <growthManagerEnabled>true</growthManagerEnabled>
+            <hideSeasonIntro>false</hideSeasonIntro>
+        </settings>
+        <version>1</version>
+        <environment>
+            <latestSeason>-1</latestSeason>
+            <latestGrowthStage>0</latestGrowthStage>
+            <currentDayOffset_DO_NOT_CHANGE>0</currentDayOffset_DO_NOT_CHANGE>
+            <latitude>51.900002</latitude>
+            <latestVisuals>0.000000</latestVisuals>
+        </environment>
+        <weather>
+            <snowDepth>0.000000</snowDepth>
+            <soilTemp>4.900000</soilTemp>
+            <prevHighTemp>0.000000</prevHighTemp>
+            <cropMoistureContent>15.000000</cropMoistureContent>
+            <moistureEnabled>true</moistureEnabled>
+            <forecast>
+                <day day="1" weatherState="fog" highTemp="7.485644" lowTemp="2.715940"/>
+                <day day="2" weatherState="rain" highTemp="12.138162" lowTemp="4.523322"/>
+                <day day="3" weatherState="sun" highTemp="16.584074" lowTemp="9.114358"/>
+                <day day="4" weatherState="sun" highTemp="20.205000" lowTemp="9.450985"/>
+                <day day="5" weatherState="sun" highTemp="23.445326" lowTemp="8.916222"/>
+                <day day="6" weatherState="rain" highTemp="24.236193" lowTemp="11.622865"/>
+                <day day="7" weatherState="rain" highTemp="18.208433" lowTemp="7.763866"/>
+                <day day="8" weatherState="rain" highTemp="14.434652" lowTemp="5.150692"/>
+                <rain startDay="1" endDayTime="42344824.000000" startDayTime="30047356.000000" endDay="1" rainTypeId="fog" duration="12297467.000000"/>
+                <rain startDay="2" endDayTime="48486696.000000" startDayTime="39349000.000000" endDay="2" rainTypeId="rain" duration="9137696.000000"/>
+                <rain startDay="3" endDayTime="0.000000" startDayTime="0.000000" endDay="3" rainTypeId="sun" duration="0.000000"/>
+                <rain startDay="4" endDayTime="0.000000" startDayTime="0.000000" endDay="4" rainTypeId="sun" duration="0.000000"/>
+                <rain startDay="5" endDayTime="0.000000" startDayTime="0.000000" endDay="5" rainTypeId="sun" duration="0.000000"/>
+                <rain startDay="6" endDayTime="27681000.000000" startDayTime="20481000.000000" endDay="6" rainTypeId="rain" duration="7200000.000000"/>
+                <rain startDay="7" endDayTime="53843492.000000" startDayTime="42354000.000000" endDay="7" rainTypeId="rain" duration="11489493.000000"/>
+                <rain startDay="8" endDayTime="55899072.000000" startDayTime="45757000.000000" endDay="8" rainTypeId="rain" duration="10142070.000000"/>
+            </forecast>
+            <fahrenheit>false</fahrenheit>
+            <appliedSnowDepth>0</appliedSnowDepth>
+            <updateSnow>false</updateSnow>
+            <snowMode>2</snowMode>
+        </weather>
+        <growthManager>
+            <willGerminate>
+                <fruit fruitName="potato" value="false"/>
+                <fruit fruitName="barley" value="false"/>
+                <fruit fruitName="wheat" value="false"/>
+                <fruit fruitName="rape" value="false"/>
+                <fruit fruitName="maize" value="false"/>
+                <fruit fruitName="grass" value="true"/>
+                <fruit fruitName="poplar" value="false"/>
+                <fruit fruitName="oilseedRadish" value="false"/>
+                <fruit fruitName="sugarBeet" value="false"/>
+            </willGerminate>
+        </growthManager>
+    </ssSeasons>
+</careerSavegame>

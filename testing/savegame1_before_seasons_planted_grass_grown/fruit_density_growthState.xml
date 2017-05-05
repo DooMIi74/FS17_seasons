@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<foliageCropsUpdater currentGrowthIndex="248">
+  <cropsState index="0" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="1" normalizedGrowthTimer="0.741436"/>
+  <cropsState index="2" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="3" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="4" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="5" normalizedGrowthTimer="0.741436"/>
+  <cropsState index="6" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="7" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="8" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="9" normalizedGrowthTimer="0.112089"/>
+  <cropsState index="10" normalizedGrowthTimer="0.741436"/>
+  <cropsState index="11" normalizedGrowthTimer="0.370685"/>
+  <growthMasks numCells="16384"><![CDATA[XQAABAAAf+/7v/6jsV7l+D+yqiZV+GhwQXAVD439HkwbikK3GfRpGHGuZiOKik0vow3Zf6bjjCMRU+BZGMV1iuJ3+LaUfwxqwN50SWRcnjrRAA==]]></growthMasks>
+</foliageCropsUpdater>

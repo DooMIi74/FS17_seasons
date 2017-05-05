@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<economy>
+    <vehicleShopSales>
+      <vehicleShopSale xmlFilename="data/vehicles/tools/salford/salford4204.xml" discount="10" saleStartDay="6" saleStartHour="8" saleDuration="30" isRunning="false" />
+      <vehicleShopSale xmlFilename="data/vehicles/steerable/caseIH/caseIH230Series.xml" discount="20" saleStartDay="3" saleStartHour="8" saleDuration="18" isRunning="false" />
+      <vehicleShopSale xmlFilename="data/vehicles/steerable/fendt/fendt900.xml" discount="5" saleStartDay="4" saleStartHour="10" saleDuration="18" isRunning="false" />
+      <vehicleShopSale xmlFilename="data/vehicles/tools/horsch/horschTerrano4FX.xml" discount="5" saleStartDay="6" saleStartHour="11" saleDuration="42" isRunning="false" />
+    </vehicleShopSales>
+
+    <brandSale xmlFilename="data/vehicles/tools/einboeck/einboeckRotation1200.xml" discount="15" saleStartDay="9" saleStartHour="15" saleDuration="24" isRunning="false" />
+
+    <fieldOwnership>
+      <field number="1" ownedByPlayer="true" npcIndex="15" />
+      <field number="2" ownedByPlayer="true" npcIndex="2" />
+      <field number="3" ownedByPlayer="true" npcIndex="6" />
+      <field number="4" ownedByPlayer="true" npcIndex="6" />
+      <field number="5" ownedByPlayer="true" npcIndex="14" />
+      <field number="6" ownedByPlayer="true" npcIndex="15" />
+      <field number="7" ownedByPlayer="true" npcIndex="7" />
+      <field number="8" ownedByPlayer="true" npcIndex="4" />
+      <field number="9" ownedByPlayer="true" npcIndex="9" />
+      <field number="10" ownedByPlayer="true" npcIndex="5" />
+      <field number="11" ownedByPlayer="true" npcIndex="8" />
+      <field number="12" ownedByPlayer="true" npcIndex="1" />
+      <field number="13" ownedByPlayer="true" npcIndex="9" />
+      <field number="14" ownedByPlayer="true" npcIndex="1" />
+      <field number="15" ownedByPlayer="true" npcIndex="1" />
+      <field number="16" ownedByPlayer="true" npcIndex="11" />
+      <field number="17" ownedByPlayer="true" npcIndex="19" />
+      <field number="18" ownedByPlayer="true" npcIndex="16" />
+      <field number="19" ownedByPlayer="true" npcIndex="3" />
+      <field number="20" ownedByPlayer="true" npcIndex="17" />
+      <field number="21" ownedByPlayer="true" npcIndex="19" />
+      <field number="22" ownedByPlayer="true" npcIndex="1" />
+      <field number="23" ownedByPlayer="true" npcIndex="1" />
+      <field number="24" ownedByPlayer="true" npcIndex="1" />
+      <field number="25" ownedByPlayer="true" npcIndex="10" />
+      <field number="26" ownedByPlayer="true" npcIndex="13" />
+      <field number="27" ownedByPlayer="true" npcIndex="10" />
+      <field number="28" ownedByPlayer="true" npcIndex="10" />
+      <field number="29" ownedByPlayer="true" npcIndex="12" />
+      <field number="30" ownedByPlayer="true" npcIndex="18" />
+      <field number="31" ownedByPlayer="true" npcIndex="18" />
+    </fieldOwnership>
+
+    <npcStats>
+        <npc index="1" finishedMissions="0" />
+        <npc index="2" finishedMissions="0" />
+        <npc index="3" finishedMissions="0" />
+        <npc index="4" finishedMissions="0" />
+        <npc index="5" finishedMissions="0" />
+        <npc index="6" finishedMissions="0" />
+        <npc index="7" finishedMissions="0" />
+        <npc index="8" finishedMissions="0" />
+        <npc index="9" finishedMissions="0" />
+        <npc index="10" finishedMissions="0" />
+        <npc index="11" finishedMissions="0" />
+        <npc index="12" finishedMissions="0" />
+        <npc index="13" finishedMissions="0" />
+        <npc index="14" finishedMissions="0" />
+        <npc index="15" finishedMissions="0" />
+        <npc index="16" finishedMissions="0" />
+        <npc index="17" finishedMissions="0" />
+        <npc index="18" finishedMissions="0" />
+        <npc index="19" finishedMissions="0" />
+    </npcStats>
+
+    <greatDemands>
+      <greatDemand stationName="station_farmer3GCV" fillTypeName="soybean" demandMultiplier="1.2999999523163" demandStartDay="5" demandStartHour="13" demandDuration="24" isRunning="false" isValid="true" />
+      <greatDemand stationName="station_grainElevatorGCV" fillTypeName="rape" demandMultiplier="1.2999999523163" demandStartDay="6" demandStartHour="11" demandDuration="18" isRunning="false" isValid="true" />
+      <greatDemand stationName="station_spinnery" fillTypeName="wool" demandMultiplier="1.1000000238419" demandStartDay="5" demandStartHour="13" demandDuration="12" isRunning="false" isValid="true" />
+    </greatDemands>
+
+    <financeStatsHistory>
+        <financeStats day="0">
+            <newVehiclesCost>0</newVehiclesCost>
+            <soldVehicles>0</soldVehicles>
+            <newAnimalsCost>0</newAnimalsCost>
+            <soldAnimals>0</soldAnimals>
+            <constructionCost>0</constructionCost>
+            <soldBuildings>0</soldBuildings>
+            <fieldPurchase>-54270</fieldPurchase>
+            <vehicleRunningCost>0</vehicleRunningCost>
+            <vehicleLeasingCost>0</vehicleLeasingCost>
+            <animalUpkeep>0</animalUpkeep>
+            <propertyMaintenance>0</propertyMaintenance>
+            <propertyIncome>0</propertyIncome>
+            <soldWood>0</soldWood>
+            <soldBales>0</soldBales>
+            <soldWool>0</soldWool>
+            <soldMilk>0</soldMilk>
+            <purchaseFuel>-34.488258012341</purchaseFuel>
+            <purchaseSeeds>-1291.5854999999</purchaseSeeds>
+            <purchaseFertilizer>-501.61897125199</purchaseFertilizer>
+            <purchaseSaplings>0</purchaseSaplings>
+            <purchaseWater>0</purchaseWater>
+            <harvestIncome>0</harvestIncome>
+            <incomeBga>0</incomeBga>
+            <missionIncome>0</missionIncome>
+            <wagePayment>-2089.0862517126</wagePayment>
+            <other>0</other>
+            <loanInterest>0</loanInterest>
+        </financeStats>
+    </financeStatsHistory>
+
+</economy>
+
