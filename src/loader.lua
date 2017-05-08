@@ -121,7 +121,9 @@ local files = {
     "gui/ssCatchingUp"
 }
 
-local isDebug = true--<%=debug %>
+
+local isDebug = --<%=debug %>
+
 if isDebug then
     table.insert(files, "utils/ssDebug")
 end
